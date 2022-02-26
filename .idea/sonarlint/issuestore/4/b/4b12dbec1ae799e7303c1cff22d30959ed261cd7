@@ -1,0 +1,10 @@
+
+L
+java:S1854"6Remove this useless assignment to local variable "s3".(ð­Œ÷
+6
+java:S2129" Remove this "String" constructor(ð­Œ÷
+=
+java:S1481"'Remove this unused "s3" local variable.(ð­Œ÷
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ8£÷„Áî/
+[
+java:S4973"9Use the "equals" method if value comparison was intended.(«ç¤Âÿÿÿÿÿ8î¬…Áî/

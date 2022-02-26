@@ -1,13 +1,0 @@
-
-N
-java:S1197"8Move the array designator from the variable to the type.(­‹Ô½
-S
-java:S1197"8Move the array designator from the variable to the type.(¡¢ëÔûÿÿÿÿ
-C	java:S108*")Either remove or fill this block of code.(ÔµòÑÿÿÿÿÿ
-S	java:S1060"9Replace this use of System.out or System.err by a logger.(¾¶¶­ýÿÿÿÿ
-H
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
-S
-java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­‹Ô½
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¢ëÔûÿÿÿÿ
