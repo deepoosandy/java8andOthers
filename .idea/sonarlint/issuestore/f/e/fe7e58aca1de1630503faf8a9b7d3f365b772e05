@@ -1,7 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¸“Ç™
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¿ççˆùÿÿÿÿ
-S
-java:S1197"8Move the array designator from the variable to the type.(Ÿ–ü¿øÿÿÿÿ
-q
-java:S1488/"[Immediately return this expression instead of assigning it to the temporary variable "pre".(¸­€•

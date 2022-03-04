@@ -20,9 +20,12 @@ public class ThreadPractice implements Runnable{
     public static void main(String[] args) {
         Thread t1=new Thread(new ThreadPractice());
         Thread t2=new Thread(new ThreadPractice());
-        Thread t3=new Thread(new ThreadPractice());
 
-        try {
+        t1.start();
+
+        t2.start();
+
+       /* try {
             t2.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -35,6 +38,6 @@ public class ThreadPractice implements Runnable{
             e.printStackTrace();
         }
        // t3.start();
-        t1.start();
+        t1.start();*/
     }
 }
