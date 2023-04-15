@@ -1,12 +1,0 @@
-
-P
-java:S1854"5Remove this useless assignment to local variable "z".(†Ç‡ýüÿÿÿÿ
-A
-java:S1481"&Remove this unused "z" local variable.(†Ç‡ýüÿÿÿÿ
-E
-java:S1656"/Remove or correct this useless self-assignment.(´Âþ“
-M	java:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
-2
-java:S1643"Use a StringBuilder instead.(¾ç¨Ï
-|
-java:S4165"fRemove this useless assignment; "intValue" already holds the assigned value along all execution paths.(´Âþ“

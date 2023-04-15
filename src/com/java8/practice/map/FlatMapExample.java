@@ -15,6 +15,8 @@ public class FlatMapExample {
         outerList.add(innerList1);
         outerList.add(innerList2);
 
-        outerList.stream().flatMap(outer->outer.stream()).forEach(System.out::println);
+       outerList.stream().flatMap(inner->inner.stream()).forEach(System.out::println);
     }
+
 }
+

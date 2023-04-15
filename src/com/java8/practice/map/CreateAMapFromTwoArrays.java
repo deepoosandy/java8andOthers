@@ -1,3 +1,4 @@
+/*
 package com.java8.practice.map;
 
 import org.junit.Test;
@@ -59,3 +60,4 @@ class  Employee{
         return result;
     }
 }
+*/

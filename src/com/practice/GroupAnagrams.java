@@ -24,7 +24,8 @@ public class GroupAnagrams {
         //  Stream.of(a).collect(Collectors.joining());
 
 
-        Map<String, Set<String>> values = Stream.of(str.split("\\s+")).collect(Collectors.groupingBy(GroupAnagrams::canonicalize, LinkedHashMap::new, Collectors.toSet()));
+        Map<String, Set<String>> values = Stream.of(str.split("\\s+")).
+                collect(Collectors.groupingBy(GroupAnagrams::canonicalize, LinkedHashMap::new, Collectors.toSet()));
 
         List<Set<String>> result = values.entrySet().stream().map(x -> x.getValue()).collect(Collectors.toList());
 

@@ -17,7 +17,7 @@ public class FindTheOccurrenceOfWordsInALine {
 
 
         System.out.println(Arrays.stream(line.split("\\s+"))
-                .collect(Collectors.groupingBy(Function.identity(), Collectors.toSet())));
+                .collect(Collectors.groupingBy(Function.identity(), Collectors.toList())));
     }
 
 
